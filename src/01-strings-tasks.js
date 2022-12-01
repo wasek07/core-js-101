@@ -103,15 +103,15 @@ function removeLeadingAndTrailingWhitespaces(value) {
  * Returns a string that repeated the specified number of times.
  *
  * @param {string} value
- * @param {string} count
+ * @param {number} count
  * @return {string}
  *
  * @example
  *   'A', 5  => 'AAAAA'
  *   'cat', 3 => 'catcatcat'
  */
-function repeatString(/* value, count */) {
-  throw new Error('Not implemented');
+function repeatString(value, count) {
+  return value.repeat(count);
 }
 
 /**
